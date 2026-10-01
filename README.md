@@ -73,7 +73,7 @@ New customers on month-to-month contracts are by far the riskiest group. The log
 The dataset downloads automatically the first time you run anything (it's small), and the trained model is already included, so `predict` works straight away.
 
 ```bash
-git clone https://github.com/Aditya11-11/customer-churn-prediction.git
+git clone https://github.com/Shreyabhawsar/customer-churn-prediction.git
 cd customer-churn-prediction
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -96,10 +96,10 @@ pytest -q
 
 This is one of five ML projects I built while learning machine learning, each in its own repo:
 
-- [🌸 Iris Flower Classification](https://github.com/Aditya11-11/iris-flower-classification)
-- [🏠 House Price Prediction](https://github.com/Aditya11-11/house-price-prediction)
-- [📉 Customer Churn Prediction](https://github.com/Aditya11-11/customer-churn-prediction) ← you are here
-- [📩 Spam Classifier](https://github.com/Aditya11-11/spam-email-classifier)
-- [✍️ Handwritten Digit Recognition (MNIST)](https://github.com/Aditya11-11/mnist-digit-recognition)
+- [🌸 Iris Flower Classification](https://github.com/Shreyabhawsar/iris-flower-classification)
+- [🏠 House Price Prediction](https://github.com/Shreyabhawsar/house-price-prediction)
+- [📉 Customer Churn Prediction](https://github.com/Shreyabhawsar/customer-churn-prediction) ← you are here
+- [📩 Spam Classifier](https://github.com/Shreyabhawsar/spam-email-classifier)
+- [✍️ Handwritten Digit Recognition (MNIST)](https://github.com/Shreyabhawsar/mnist-digit-recognition)
 
 MIT licensed. See [LICENSE](LICENSE).
