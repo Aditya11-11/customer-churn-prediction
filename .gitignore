@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Datasets are downloaded automatically by each project's data.py
+data/
+
+# Trained models in models/ are committed on purpose so predict.py works right after cloning.
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
