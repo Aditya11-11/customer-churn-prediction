@@ -1,0 +1,76 @@
+{
+  "selected_model": "Random Forest",
+  "n_train": 5634,
+  "n_test": 1409,
+  "churn_rate": 0.2654,
+  "models": {
+    "Logistic Regression": {
+      "best_params": {
+        "C": 0.03
+      },
+      "cv_roc_auc": 0.8477,
+      "test_roc_auc": 0.8444,
+      "test_pr_auc": 0.6514,
+      "precision@0.5": 0.5165,
+      "recall@0.5": 0.7968,
+      "f1@0.5": 0.6267
+    },
+    "Random Forest": {
+      "best_params": {
+        "max_depth": 14,
+        "max_features": "sqrt",
+        "min_samples_leaf": 20
+      },
+      "cv_roc_auc": 0.848,
+      "test_roc_auc": 0.8461,
+      "test_pr_auc": 0.6594,
+      "precision@0.5": 0.541,
+      "recall@0.5": 0.7941,
+      "f1@0.5": 0.6436
+    }
+  },
+  "threshold": {
+    "best_f1_threshold": 0.5,
+    "cost_optimal_threshold": 0.45,
+    "precision_at_cost_threshold": 0.516,
+    "recall_at_cost_threshold": 0.8209,
+    "confusion_matrix": {
+      "tn": 747,
+      "fp": 288,
+      "fn": 67,
+      "tp": 307
+    },
+    "cost_do_nothing": 291720,
+    "cost_at_optimal": 242448,
+    "savings": 49271,
+    "assumptions": {
+      "offer_cost": 50,
+      "churn_cost": 780,
+      "offer_success_rate": 0.33
+    }
+  },
+  "top_permutation_importance": {
+    "Contract": 0.0226,
+    "tenure": 0.0132,
+    "IsMonthToMonth": 0.0115,
+    "InternetService": 0.0114,
+    "TotalCharges": 0.009,
+    "TenureGroup": 0.0061,
+    "OnlineSecurity": 0.0046,
+    "TechSupport": 0.0033
+  },
+  "logreg_odds_ratios": {
+    "tenure": 0.607,
+    "Contract_Two year": 0.661,
+    "InternetService_DSL": 0.776,
+    "TenureGroup_2-4y": 0.811,
+    "MultipleLines_No": 0.815,
+    "TenureGroup_1-2y": 0.818,
+    "Contract_One year": 1.238,
+    "OnlineSecurity_No": 1.248,
+    "PaperlessBilling_Yes": 1.358,
+    "InternetService_Fiber optic": 1.373,
+    "IsMonthToMonth": 1.493,
+    "TenureGroup_0-6m": 1.628
+  }
+}
